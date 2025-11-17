@@ -10,7 +10,7 @@ The resource is plug-and-play and only contains streamed model files — no scri
 **Metal Detector (Model Preview):**  
 <img src="https://rex-studio.com/RexStudio/other/metaldetector.png" width="50%">
 
-**Image 2 (Model Preview 2):**  
+**Metal Detector 2 (Model Preview 2):**  
 <img src="https://rex-studio.com/RexStudio/other/metaldetector2.png" width="50%">
 
 ---
