@@ -8,10 +8,10 @@ The resource is plug-and-play and only contains streamed model files — no scri
 ## Preview
 
 **Metal Detector (Model Preview):**  
-![Preview 1]([URL_TO_IMAGE_1](https://rex-studio.com/RexStudio/other/metaldetector.png))
+![Preview 1]([https://rex-studio.com/RexStudio/other/metaldetector.png](https://rex-studio.com/RexStudio/other/metaldetector.png))
 
 **Image 2 (Model Preview 2):**  
-![Preview 2]([URL_TO_IMAGE_2](https://rex-studio.com/RexStudio/other/metaldetector2.png))
+![Preview 2]([https://rex-studio.com/RexStudio/other/metaldetector.png](https://rex-studio.com/RexStudio/other/metaldetector2.png))
 
 (Replace `URL_TO_IMAGE_1` and `URL_TO_IMAGE_2` with your uploaded image links.)
 
@@ -20,7 +20,7 @@ The resource is plug-and-play and only contains streamed model files — no scri
 ## Repository Structure
 
 ```
-w_am_digiscanner_reh/
+Metaldetector_props/
 ├── fxmanifest.lua
 ├── README.md
 └── stream/
@@ -56,7 +56,7 @@ data_file 'DLC_ITYP_REQUEST' 'stream/w_am_digiscanner_reh.ytyp'
 
 3. Add the resource in your server.cfg:
 ```cfg
-ensure w_am_digiscanner_reh
+ensure Metaldetector_props
 ```
 
 4. Restart your server.  
