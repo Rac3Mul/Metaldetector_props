@@ -8,10 +8,10 @@ The resource is plug-and-play and only contains streamed model files — no scri
 ## Preview
 
 **Metal Detector (Model Preview):**  
-![Preview 1]([https://rex-studio.com/RexStudio/other/metaldetector.png](https://rex-studio.com/RexStudio/other/metaldetector.png))
+![Preview 1](https://rex-studio.com/RexStudio/other/metaldetector.png)
 
 **Image 2 (Model Preview 2):**  
-![Preview 2]([https://rex-studio.com/RexStudio/other/metaldetector.png](https://rex-studio.com/RexStudio/other/metaldetector2.png))
+![Preview 2](https://rex-studio.com/RexStudio/other/metaldetector.png)
 
 (Replace `URL_TO_IMAGE_1` and `URL_TO_IMAGE_2` with your uploaded image links.)
 
