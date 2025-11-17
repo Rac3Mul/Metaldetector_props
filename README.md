@@ -1,20 +1,32 @@
 # w_am_digiscanner_reh – Metal Detector Prop Replace
 
 This repository provides a **replacement for the default GTA V prop `w_am_digiscanner`**, used as a metal detector.  
-The resource is plug-and-play and only contains the streamed model files — no scripts or configuration required.
+The resource is plug-and-play and only contains streamed model files — no scripts or configuration required.
+
+---
+
+## Preview
+
+**Metal Detector (Model Preview):**  
+<img src="https://rex-studio.com/RexStudio/other/metaldetector.png" width="50%">
+
+**Metal Detector 2 (Model Preview 2):**  
+<img src="https://rex-studio.com/RexStudio/other/metaldetector2.png" width="50%">
 
 ---
 
 ## Repository Structure
 
-w_am_digiscanner_reh/
+```
+Metaldetector_props/
 ├── fxmanifest.lua
 ├── README.md
 └── stream/
-├── w_am_digiscanner_reh.ydr
-└── w_am_digiscanner_reh.ytyp
+    ├── w_am_digiscanner_reh.ydr
+    └── w_am_digiscanner_reh.ytyp
+```
 
-The `stream/` folder contains the custom prop files that will replace the original model.
+The `stream/` folder contains the custom prop files that replace the original model.
 
 ---
 
@@ -22,7 +34,7 @@ The `stream/` folder contains the custom prop files that will replace the origin
 
 1. Place the resource folder inside your `resources/` directory.
 
-2. Ensure your `fxmanifest.lua` looks like this:
+2. Use this `fxmanifest.lua`:
 
 ```lua
 fx_version 'cerulean'
@@ -38,23 +50,31 @@ files {
 }
 
 data_file 'DLC_ITYP_REQUEST' 'stream/w_am_digiscanner_reh.ytyp'
-Add the resource to your server.cfg:
+```
 
-ensure w_am_digiscanner_reh
-Restart your server.
-Any script or mapping that uses the original w_am_digiscanner prop will automatically display this custom model.
+3. Add the resource in your server.cfg:
+```cfg
+ensure Metaldetector_props
+```
 
-Usage
-No edits are needed in your scripts.
-The replacement works automatically as soon as the resource is streamed.
+4. Restart your server.  
+   The default prop will now be replaced by the custom model.
 
-Credits
-Model / Replace: Reh
+---
 
-Resource Setup: (fill in if needed)
+## Usage
 
-License
-Free to use for any FiveM project as long as credits stay intact.
-Commercial redistribution of the model is forbidden without explicit authorization from the author.
+No script change is required.  
+Any script, mapping or scenario using the default **w_am_digiscanner** prop will automatically show this custom model.
 
-markdown
+---
+
+## Credits
+
+- Model / Replace: w_am_digiscanner_reh
+
+---
+
+## License
+
+Free to use on any FiveM server as long as credits remain intact.  
