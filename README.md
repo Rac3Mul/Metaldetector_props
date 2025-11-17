@@ -71,12 +71,10 @@ Any script, mapping or scenario using the default **w_am_digiscanner** prop will
 
 ## Credits
 
-- Model / Replace: **Reh**  
-- Resource Setup: *(add your name if needed)*
+- Model / Replace: w_am_digiscanner_reh
 
 ---
 
 ## License
 
 Free to use on any FiveM server as long as credits remain intact.  
-Commercial redistribution of the model is forbidden without explicit permission from the author.
